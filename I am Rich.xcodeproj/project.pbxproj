@@ -13,9 +13,6 @@
 		46F852FE29CDF1AE00A2B98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F852FC29CDF1AE00A2B98C /* Main.storyboard */; };
 		46F8530029CDF1B000A2B98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F852FF29CDF1B000A2B98C /* Assets.xcassets */; };
 		46F8530329CDF1B000A2B98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F8530129CDF1B000A2B98C /* LaunchScreen.storyboard */; };
-		46F8530E29CDF1B000A2B98C /* I_am_RichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8530D29CDF1B000A2B98C /* I_am_RichTests.swift */; };
-		46F8531829CDF1B000A2B98C /* I_am_RichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8531729CDF1B000A2B98C /* I_am_RichUITests.swift */; };
-		46F8531A29CDF1B000A2B98C /* I_am_RichUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8531929CDF1B000A2B98C /* I_am_RichUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		46F8530229CDF1B000A2B98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46F8530429CDF1B000A2B98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46F8530929CDF1B000A2B98C /* I am RichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I am RichTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F8530D29CDF1B000A2B98C /* I_am_RichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_RichTests.swift; sourceTree = "<group>"; };
 		46F8531329CDF1B000A2B98C /* I am RichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I am RichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F8531729CDF1B000A2B98C /* I_am_RichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_RichUITests.swift; sourceTree = "<group>"; };
-		46F8531929CDF1B000A2B98C /* I_am_RichUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_RichUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				46F852F529CDF1AE00A2B98C /* I am Rich */,
-				46F8530C29CDF1B000A2B98C /* I am RichTests */,
-				46F8531629CDF1B000A2B98C /* I am RichUITests */,
 				46F852F429CDF1AE00A2B98C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				46F8530429CDF1B000A2B98C /* Info.plist */,
 			);
 			path = "I am Rich";
-			sourceTree = "<group>";
-		};
-		46F8530C29CDF1B000A2B98C /* I am RichTests */ = {
-			isa = PBXGroup;
-			children = (
-				46F8530D29CDF1B000A2B98C /* I_am_RichTests.swift */,
-			);
-			path = "I am RichTests";
-			sourceTree = "<group>";
-		};
-		46F8531629CDF1B000A2B98C /* I am RichUITests */ = {
-			isa = PBXGroup;
-			children = (
-				46F8531729CDF1B000A2B98C /* I_am_RichUITests.swift */,
-				46F8531929CDF1B000A2B98C /* I_am_RichUITestsLaunchTests.swift */,
-			);
-			path = "I am RichUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F8530E29CDF1B000A2B98C /* I_am_RichTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F8531A29CDF1B000A2B98C /* I_am_RichUITestsLaunchTests.swift in Sources */,
-				46F8531829CDF1B000A2B98C /* I_am_RichUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +409,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZDBU7945J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "I am Rich/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZDBU7945J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "I am Rich/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
